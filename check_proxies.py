@@ -5,7 +5,7 @@ import requests
 
 q = queue.Queue()
 
-with open("all-proxies.txt","r") as f:
+with open("proxies/all-proxies.txt","r") as f:
     proxies = f.read().split("\n")
     for p in proxies:
         q.put(p)
