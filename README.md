@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 🔍 Python Web Scraper with Proxy Rotation
 
 A beginner‑friendly Python web scraping project that demonstrates a clean and safe scraping workflow using proxy rotation and HTML file parsing.
@@ -17,20 +16,19 @@ Each stage is handled in a **separate Python file** which makes the project easy
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 project/
-│
 ├── proxies/
-│   ├── all-proxies.txt        → Raw proxy list
-│   └── valid_proxies.txt      → Working proxies from all-proxies.txt
+│   ├── all-proxies.txt          → Raw proxy list
+│   └── valid_proxies.txt        → Working proxies from all-proxies.txt
 │
 ├── html_page/
-│   └── html_page.html         → Saved HTML content
+│   └── html_page.html           → Saved HTML content
 │
-├── check_proxies.py           → Validates proxies
-├── fetch_page.py              → Fetches webpage HTML
-├── main.py                    → Content parsing and extraction from the saved HTML 
+├── check_proxies.py             → Validates proxies
+├── fetch_page.py                → Fetches webpage HTML
+├── main.py                      → Content parsing and extraction from the saved HTML
 └── README.md
 
 ---
