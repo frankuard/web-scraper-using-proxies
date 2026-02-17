@@ -98,8 +98,4 @@ Python & Web Scraping Learner
 ---
 
 ⭐ This project is designed for learning and portfolio use.
-=======
-# web-scraper-using-proxies
 
-readme file is still to be edited
->>>>>>> e3705bf1fdb26f736f71499f3c418c04146dc3ae
