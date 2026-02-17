@@ -16,22 +16,6 @@ Each stage is handled in a **separate Python file** which makes the project easy
 
 ---
 
-## Project Structure
-
-│   check_proxies.py
-│   fetch_page.py
-│   main.py
-│   README.md
-│
-├───html_page
-│       html_page.html
-│
-└───proxies
-        all-proxies.txt
-        valid_proxies.txt
-
----
-
 ## 🧠 How the Project Works 
 
 ### 1️⃣ Proxy Validation
