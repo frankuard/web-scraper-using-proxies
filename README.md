@@ -18,18 +18,17 @@ Each stage is handled in a **separate Python file** which makes the project easy
 
 ## Project Structure
 
-project/
-├── proxies/
-│   ├── all-proxies.txt          → Raw proxy list
-│   └── valid_proxies.txt        → Working proxies from all-proxies.txt
+│   check_proxies.py
+│   fetch_page.py
+│   main.py
+│   README.md
 │
-├── html_page/
-│   └── html_page.html           → Saved HTML content
+├───html_page
+│       html_page.html
 │
-├── check_proxies.py             → Validates proxies
-├── fetch_page.py                → Fetches webpage HTML
-├── main.py                      → Content parsing and extraction from the saved HTML
-└── README.md
+└───proxies
+        all-proxies.txt
+        valid_proxies.txt
 
 ---
 
